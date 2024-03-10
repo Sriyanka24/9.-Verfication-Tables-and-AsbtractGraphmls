@@ -1,0 +1,16 @@
+Abstraction Node,Raw Node
+Data Prep and Validation,Data Prep
+,Data Validation
+AML Workspace,Create machine learning workspace
+,Create machine learning compute
+,Publish machine learning pipeline
+Azure User,DS – Data Scientist
+Data Sanity and Unit Tests,Data sanity test
+,Unit test
+Azure Container Registry,Mentioned in the text below. Not clear from the Architecture.
+AML Compute Train and Evaluate,Azure Machine Learning Compute
+,Train Model
+,Evaluate Model
+AML Model Serving/ Scoring services,Azure Machine Learning – Staging QA
+,Azure Machine Learning – Production
+,Scoring Servies

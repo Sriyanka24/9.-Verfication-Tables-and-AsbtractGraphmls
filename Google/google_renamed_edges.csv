@@ -1,0 +1,15 @@
+Abstraction Edge,Raw Edge
+Data Validation,Feature store Vertex AI Feature Store -> TensorFlow Data Validation Dataflow
+Data Transformation,Raw data Cloud Storage -> TensorFlow Transform
+Training data,TensorFlow Transform -> Transformed train & test data Cloud Storage
+Triggers CI/CD if there is a change in the code,Vertex AI Workbench -> Cloud Source Repositories
+Experiments,User -> Data Science environment
+Triggers if the image is updated in the Registry,Release gateway -> Vertex AI Pipelines
+Stores to the Registry if passed the evaluation,Model training and tuning – Saved model Cloud Storage -> Model registry Vertex AI Model Registry
+Training data,Transformed train & test data Cloud Storage -> TensorFlow Estimator Vertex AI Training
+Monitoring,
+Alerts,Logs Cloud Logging -> Trigger message Pub/Sub
+Event-driven,Workflow Cloud Composer -> Trigger message Pub/Sub
+Publishes messages on a schedule,Scheduler Cloud Scheduler -> Trigger message Pub/Sub
+Triggers,Trigger message Pub/Sub -> Pipeline trigger Cloud Functions
+Triggers retraining if new data is available/ on degraded performance/ based on Scheduler,Pipeline trigger Cloud Functions -> Pipelines Vertex AI Pipelines

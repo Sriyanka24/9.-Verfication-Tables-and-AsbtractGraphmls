@@ -1,0 +1,14 @@
+Abstraction Node,Raw Node
+Feature Engineering and Data Labeling,Feature Engineering and Data Labeling
+SageMaker Notebook,SageMaker Notebook
+Custom VPC,Custom VPC
+AWS CodeCommit,AWS CodeCommit
+ECR,ECR
+Custom VPC,Custom VPC
+CloudFormation,CloudFormation
+Custom VPC,Custom VPC
+SageMaker Endpoint,SageMaker Endpoint
+Model Monitoring Job,Model Monitoring Job
+SageMaker Container Images CI/CD CodePipeline,SageMaker Container Images CI/CD CodePipeline
+Model Training/Retraining CodePipeline,Model Training/Retraining CodePipeline
+Model Deployment CodePipeline,Model Deployment CodePipeline

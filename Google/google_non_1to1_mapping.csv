@@ -1,0 +1,29 @@
+Abstraction Node,Raw Node
+Dataflow,TensorFlow Data Validation Dataflow
+,TensorFlow Transform Dataflow
+Vertex AI Workbench,Vertex AI Workbench
+,Data science environment
+Cloud Source Repositories,Cloud Source Repositories
+,Pipeline workflow source code
+,"Components source code & specs, configurations"
+,"Docker files, scripts"
+,Unit & integration tests
+Cloud Build,Cloud Build
+,Pipeline workflow source code
+GCP Artifact Registry,Artifact Registry
+,Container images for pipeline components
+,Pipeline template
+Vertex AI Train and Evaluate,Vertex AI Pipelines
+,Data extraction
+,Data validation
+,Model evaluation & validation
+Vertex AI Model Registry,Model Storage
+,Model registry Vertex AI Model Registry
+Vertex AI Prediction,Model serving for predictions
+,TensorFlow Serving Vertex AI Prediction
+Vertex AI Model Monitor,Logs Cloud Logging
+Cloud Composer,Workflow Cloud Composer
+Cloud Scheduler,Scheduler Cloud Scheduler
+Pub/Sub,Trigger message Pub/Sub
+Cloud Functions SDK,Pipeline trigger Cloud Functions
+Triggers/Scheduler Google,

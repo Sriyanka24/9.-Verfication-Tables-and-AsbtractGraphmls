@@ -1,0 +1,15 @@
+Abstraction Node,Raw Node
+AWS CodeBuild and SageMaker Docker Image,AWS CodeBuild
+,SageMaker Docker Image
+AWS CodeBuild and AWS Lambda,AWS CodeBuild
+,AWS Lambda (Data Validation)
+SageMaker ML Pipeline,SageMaker ML Pipeline
+,Data Preprocessing
+,Model Training
+,Model Evaluation
+AWS CodeCommit and AWS CodeBuild,AWS CodeCommit
+,AWS CodeBuild validates & executes CFN template
+CloudWatch Metrics and Alarm,CloudWatch Metrics
+,CloudWatch Alarm
+Triggers/Scheduler AWS,
+Amazon EventBridge,

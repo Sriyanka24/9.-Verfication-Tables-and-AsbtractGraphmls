@@ -1,0 +1,8 @@
+Abstraction Edge,Raw Edge
+Test data,
+Feature Engineering,
+Monitors new data,
+Evaluation Metrics,Model training and tuning – Saved model Cloud Storage -> TensorFlow Model Analysis Dataflow
+,TensorFlow Model Analysis Dataflow -> Evaluation metrics Cloud Storage
+Triggers if the model is updated in the registry,Model registry Vertex AI Model Registry -> TensorFlow Serving Vertex AI Prediction
+Deploy as a Serving app,
