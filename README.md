@@ -1,4 +1,4 @@
-## GraphML to Mapping Verification Tool
+## GraphML to Mapping Tables Verification
 
 <p align='justify'>This repository contains a Python tool for verifying the mapping between nodes and edges in GraphML files and mapping tables represented in CSV files. The tool automates the process of comparing nodes and edges between GraphML representations and mapping tables, providing insights into the consistency and correctness of mappings across different platforms.</p>
 
