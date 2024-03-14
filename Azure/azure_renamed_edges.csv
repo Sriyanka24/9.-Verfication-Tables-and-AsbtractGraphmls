@@ -6,8 +6,8 @@ Pushes code to the repo,Unit Tests -> Code Repo
 Source code integration,Code Repo -> Continuous Integration
 Stores Artifacts,
 Stores to the Registry if passed the evaluation,"Train model, Evaluate model -> Register model"
-Triggers if the model is updated in the registry,Register model -> AML Model Management
+Triggers if the model is updated in the Registry,Register model -> AML Model Management
 Training data,Data Pipeline -> Training Pipeline – Training Data
-Deploy as a Serving app,"Operationalize model, Model Artifact Trigger"
+Deploys as a Serving app,"Operationalize model, Model Artifact Trigger"
 Triggers Data-driven Schedule-driven Metrics-driven,Triggers Data-driven Schedule-driven Metrics-driven (New data location)
 Triggers retraining if new data is available/ on degraded performance/ based on Scheduler,Azure Machine Learning pipeline endpoint -> Azure Machine Learning retraining pipeline

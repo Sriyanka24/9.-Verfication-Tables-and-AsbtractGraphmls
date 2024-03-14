@@ -67,7 +67,7 @@
 			<y:FreeNodePortLocationModelParameter x:Key="12" Ratio="0.0044052863436123135,0.5"/>
 			<y:FreeNodePortLocationModelParameter x:Key="13" Ratio="0.0044052863436123135,0.5"/>
 			<yjs:SolidColorFill x:Key="14" color="Black"/>
-			<yjs:Arrow x:Key="15" type="TRIANGLE" scale="1.5" stroke="{y:GraphMLReference 34}" fill="{y:GraphMLReference 35}" cropLength="1"/>
+			<yjs:Arrow x:Key="15" type="TRIANGLE" scale="1.5" stroke="{y:GraphMLReference 31}" fill="{y:GraphMLReference 32}" cropLength="1"/>
 			<y:SmartEdgeLabelModelParameter x:Key="16" Distance="5">
 				<y:SmartEdgeLabelModelParameter.Model>
 					<y:SmartEdgeLabelModel/>
@@ -93,26 +93,23 @@
 			</yjs:MarkupLabelStyle>
 			<yjs:Stroke x:Key="23" fill="{y:GraphMLReference 24}" thickness="1.5"/>
 			<yjs:SolidColorFill x:Key="24" color="Black"/>
-			<yjs:Font x:Key="25" fontSize="20"/>
-			<yjs:Font x:Key="26" fontSize="16"/>
-			<y:FreeNodePortLocationModelParameter x:Key="27" Ratio="0.007187780772686447,0.5"/>
-			<y:FreeNodePortLocationModelParameter x:Key="28" Ratio="0.006065200909780133,0.5"/>
-			<y:FreeNodePortLocationModelParameter x:Key="29" Ratio="0.9939347990902199,0.5"/>
-			<y:InteriorLabelModel x:Key="30"/>
-			<yjs:SolidColorFill x:Key="31" color="#FFE6E6E6"/>
-			<yjs:Font x:Key="32" fontSize="20"/>
-			<y:FreeNodePortLocationModelParameter x:Key="33" Ratio="0.5,0.9939462731744231"/>
-			<yjs:Stroke x:Key="34" fill="#FF000000"/>
-			<yjs:SolidColorFill x:Key="35" color="Black"/>
-			<y:SmartEdgeLabelModel x:Key="36"/>
-			<yjs:Stroke x:Key="37" fill="{y:GraphMLReference 14}" thickness="0.75"/>
-			<yjs:Arrow x:Key="38" type="TRIANGLE" stroke="{y:GraphMLReference 34}" fill="{y:GraphMLReference 35}" cropLength="1"/>
-			<yjs:MarkupLabelStyle x:Key="39" verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" clipText="false" textWrappingShape="LABEL_SHAPE" textFill="BLACK" textSize="20">
+			<y:FreeNodePortLocationModelParameter x:Key="25" Ratio="0.007187780772686447,0.5"/>
+			<y:FreeNodePortLocationModelParameter x:Key="26" Ratio="0.006065200909780133,0.5"/>
+			<y:FreeNodePortLocationModelParameter x:Key="27" Ratio="0.9939347990902199,0.5"/>
+			<y:InteriorLabelModel x:Key="28"/>
+			<yjs:SolidColorFill x:Key="29" color="#FFE6E6E6"/>
+			<y:FreeNodePortLocationModelParameter x:Key="30" Ratio="0.5,0.9939462731744231"/>
+			<yjs:Stroke x:Key="31" fill="#FF000000"/>
+			<yjs:SolidColorFill x:Key="32" color="Black"/>
+			<y:SmartEdgeLabelModel x:Key="33"/>
+			<yjs:Stroke x:Key="34" fill="{y:GraphMLReference 14}" thickness="0.75"/>
+			<yjs:Arrow x:Key="35" type="TRIANGLE" stroke="{y:GraphMLReference 31}" fill="{y:GraphMLReference 32}" cropLength="1"/>
+			<yjs:MarkupLabelStyle x:Key="36" verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" clipText="false" textWrappingShape="LABEL_SHAPE" textFill="BLACK" textSize="20">
 				<yjs:MarkupLabelStyle.font>
 					<yjs:Font fontSize="20"/>
 				</yjs:MarkupLabelStyle.font>
 			</yjs:MarkupLabelStyle>
-			<yjs:PolylineEdgeStyle x:Key="40">
+			<yjs:PolylineEdgeStyle x:Key="37">
 				<yjs:PolylineEdgeStyle.stroke>
 					<yjs:Stroke fill="#FF000000" thickness="0.75"/>
 				</yjs:PolylineEdgeStyle.stroke>
@@ -120,17 +117,16 @@
 					<yjs:Arrow type="TRIANGLE" stroke="#FF000000" fill="#FF000000" cropLength="1"/>
 				</yjs:PolylineEdgeStyle.targetArrow>
 			</yjs:PolylineEdgeStyle>
-			<y:SmartEdgeLabelModel x:Key="41"/>
-			<yjs:PolylineEdgeStyle x:Key="42" stroke="{y:GraphMLReference 43}" targetArrow="{y:GraphMLReference 44}" sourceArrow="{y:GraphMLReference 49}"/>
-			<yjs:Stroke x:Key="43" fill="{y:GraphMLReference 45}" thickness="0.75"/>
-			<yjs:Arrow x:Key="44" type="TRIANGLE" scale="0.75" stroke="#FF000000" fill="#FF000000" cropLength="1"/>
-			<yjs:SolidColorFill x:Key="45" color="Black"/>
-			<yjs:Stroke x:Key="46" fill="#FF000000"/>
-			<yjs:SolidColorFill x:Key="47" color="Black"/>
-			<y:SmartEdgeLabelModel x:Key="48"/>
-			<yjs:Arrow x:Key="49" type="NONE" scale="0.75" stroke="#FF000000" fill="#FF000000"/>
-			<yjs:PolylineEdgeStyle x:Key="50" stroke="{y:GraphMLReference 43}" targetArrow="{y:GraphMLReference 44}" sourceArrow="{y:GraphMLReference 49}"/>
-			<y:SmartEdgeLabelModel x:Key="51"/>
+			<y:SmartEdgeLabelModel x:Key="38"/>
+			<yjs:PolylineEdgeStyle x:Key="39" stroke="{y:GraphMLReference 40}" targetArrow="{y:GraphMLReference 41}" sourceArrow="{y:GraphMLReference 46}"/>
+			<yjs:Stroke x:Key="40" fill="{y:GraphMLReference 42}" thickness="0.75"/>
+			<yjs:Arrow x:Key="41" type="TRIANGLE" scale="0.75" stroke="#FF000000" fill="#FF000000" cropLength="1"/>
+			<yjs:SolidColorFill x:Key="42" color="Black"/>
+			<yjs:Stroke x:Key="43" fill="#FF000000"/>
+			<yjs:SolidColorFill x:Key="44" color="Black"/>
+			<y:SmartEdgeLabelModel x:Key="45"/>
+			<yjs:Arrow x:Key="46" type="NONE" scale="0.75" stroke="#FF000000" fill="#FF000000"/>
+			<yjs:PolylineEdgeStyle x:Key="47" stroke="{y:GraphMLReference 40}" targetArrow="{y:GraphMLReference 41}" sourceArrow="{y:GraphMLReference 46}"/>
 		</y:SharedData>
 	</data>
 	<graph id="G" edgedefault="directed">
@@ -744,7 +740,7 @@ and Unit Tests]]></y:Label.Text>
 					<data key="d13">
 						<yjs:PolylineEdgeStyle stroke="{y:GraphMLReference 23}">
 							<yjs:PolylineEdgeStyle.targetArrow>
-								<yjs:Arrow type="TRIANGLE" scale="1.5" stroke="{y:GraphMLReference 46}" fill="{y:GraphMLReference 47}" cropLength="1"/>
+								<yjs:Arrow type="TRIANGLE" scale="1.5" stroke="{y:GraphMLReference 43}" fill="{y:GraphMLReference 44}" cropLength="1"/>
 							</yjs:PolylineEdgeStyle.targetArrow>
 							<yjs:PolylineEdgeStyle.sourceArrow>
 								<yjs:Arrow type="NONE" scale="1.5" stroke="#FF000000" fill="#FF000000"/>
@@ -1432,7 +1428,7 @@ Code Repo]]></y:Label.Text>
 							<y:Label>
 								<y:Label.Text><![CDATA[<p><strong style="color: rgb(0, 102, 204);"><em>Monitoring</em></strong></p>]]></y:Label.Text>
 								<y:Label.LayoutParameter>
-									<y:SmartEdgeLabelModelParameter Model="{y:GraphMLReference 48}" Distance="5"/>
+									<y:SmartEdgeLabelModelParameter Model="{y:GraphMLReference 45}" Distance="5"/>
 								</y:Label.LayoutParameter>
 								<y:Label.Style>
 									<yjs:MarkupLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" clipText="false" textWrappingShape="LABEL_SHAPE" textFill="BLACK" textSize="19">
@@ -1518,7 +1514,7 @@ Code Repo]]></y:Label.Text>
 				<y:RectD X="-469.2929315440226" Y="-686.09375" Width="238.71086308804536" Height="163.1875"/>
 			</data>
 			<data key="d7">
-				<demostyle:FlowchartNodeStyle type="process" fill="{y:GraphMLReference 31}"/>
+				<demostyle:FlowchartNodeStyle type="process" fill="{y:GraphMLReference 29}"/>
 			</data>
 			<data key="d8">
 				<y:ViewState>
@@ -1534,7 +1530,11 @@ Code Repo]]></y:Label.Text>
 									</y:CompositeLabelModelParameter>
 								</y:Label.LayoutParameter>
 								<y:Label.Style>
-									<yjs:MarkupLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" clipText="false" textWrappingShape="LABEL_SHAPE" font="{y:GraphMLReference 32}" textFill="BLACK" textSize="20"/>
+									<yjs:MarkupLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" clipText="false" textWrappingShape="LABEL_SHAPE" textFill="BLACK" textSize="20">
+										<yjs:MarkupLabelStyle.font>
+											<yjs:Font fontSize="20"/>
+										</yjs:MarkupLabelStyle.font>
+									</yjs:MarkupLabelStyle>
 								</y:Label.Style>
 							</y:Label>
 						</y:FolderNodeState.Labels>
@@ -1582,7 +1582,7 @@ Code Repo]]></y:Label.Text>
 			</port>
 			<port name="p5">
 				<data key="d16">
-					<y:GraphMLReference ResourceKey="33"/>
+					<y:GraphMLReference ResourceKey="30"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -1608,7 +1608,11 @@ Code Repo]]></y:Label.Text>
 					<y:Label LayoutParameter="{y:GraphMLReference 9}">
 						<y:Label.Text><![CDATA[<p><strong>Azure Machine Learning </strong></p><p><strong><span class="ql-cursor">﻿﻿﻿﻿p</span>ipeline <span class="ql-cursor">﻿﻿﻿e</span>ndpoint</strong></p>]]></y:Label.Text>
 						<y:Label.Style>
-							<yjs:MarkupLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" clipText="false" textWrappingShape="LABEL_SHAPE" font="{y:GraphMLReference 25}" textFill="BLACK" textSize="20"/>
+							<yjs:MarkupLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" clipText="false" textWrappingShape="LABEL_SHAPE" textFill="BLACK" textSize="20">
+								<yjs:MarkupLabelStyle.font>
+									<yjs:Font fontSize="20"/>
+								</yjs:MarkupLabelStyle.font>
+							</yjs:MarkupLabelStyle>
 						</y:Label.Style>
 					</y:Label>
 				</x:List>
@@ -1633,7 +1637,11 @@ Code Repo]]></y:Label.Text>
 									</y:CompositeLabelModelParameter>
 								</y:Label.LayoutParameter>
 								<y:Label.Style>
-									<yjs:MarkupLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" clipText="false" textWrappingShape="LABEL_SHAPE" font="{y:GraphMLReference 26}" textFill="BLACK" textSize="16"/>
+									<yjs:MarkupLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" clipText="false" textWrappingShape="LABEL_SHAPE" textFill="BLACK" textSize="16">
+										<yjs:MarkupLabelStyle.font>
+											<yjs:Font fontSize="16"/>
+										</yjs:MarkupLabelStyle.font>
+									</yjs:MarkupLabelStyle>
 								</y:Label.Style>
 							</y:Label>
 						</y:FolderNodeState.Labels>
@@ -1642,7 +1650,7 @@ Code Repo]]></y:Label.Text>
 			</data>
 			<port name="p0">
 				<data key="d16">
-					<y:GraphMLReference ResourceKey="27"/>
+					<y:GraphMLReference ResourceKey="25"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -1659,7 +1667,7 @@ Code Repo]]></y:Label.Text>
 			</port>
 			<port name="p2">
 				<data key="d16">
-					<y:GraphMLReference ResourceKey="28"/>
+					<y:GraphMLReference ResourceKey="26"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -1683,7 +1691,7 @@ Code Repo]]></y:Label.Text>
 			</port>
 			<port name="p5">
 				<data key="d16">
-					<y:GraphMLReference ResourceKey="29"/>
+					<y:GraphMLReference ResourceKey="27"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -1878,7 +1886,11 @@ Code Repo]]></y:Label.Text>
 					<y:Label LayoutParameter="{y:GraphMLReference 9}">
 						<y:Label.Text><![CDATA[<p><strong>AML ﻿﻿﻿﻿Model </strong></p><p><strong>﻿﻿﻿Management</strong></p>]]></y:Label.Text>
 						<y:Label.Style>
-							<yjs:MarkupLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" clipText="false" textWrappingShape="LABEL_SHAPE" font="{y:GraphMLReference 25}" textFill="BLACK" textSize="20"/>
+							<yjs:MarkupLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" clipText="false" textWrappingShape="LABEL_SHAPE" textFill="BLACK" textSize="20">
+								<yjs:MarkupLabelStyle.font>
+									<yjs:Font fontSize="20"/>
+								</yjs:MarkupLabelStyle.font>
+							</yjs:MarkupLabelStyle>
 						</y:Label.Style>
 					</y:Label>
 				</x:List>
@@ -1903,7 +1915,11 @@ Code Repo]]></y:Label.Text>
 									</y:CompositeLabelModelParameter>
 								</y:Label.LayoutParameter>
 								<y:Label.Style>
-									<yjs:MarkupLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" clipText="false" textWrappingShape="LABEL_SHAPE" font="{y:GraphMLReference 26}" textFill="BLACK" textSize="16"/>
+									<yjs:MarkupLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" clipText="false" textWrappingShape="LABEL_SHAPE" textFill="BLACK" textSize="16">
+										<yjs:MarkupLabelStyle.font>
+											<yjs:Font fontSize="16"/>
+										</yjs:MarkupLabelStyle.font>
+									</yjs:MarkupLabelStyle>
 								</y:Label.Style>
 							</y:Label>
 						</y:FolderNodeState.Labels>
@@ -1912,7 +1928,7 @@ Code Repo]]></y:Label.Text>
 			</data>
 			<port name="p0">
 				<data key="d16">
-					<y:GraphMLReference ResourceKey="27"/>
+					<y:GraphMLReference ResourceKey="25"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -1929,7 +1945,7 @@ Code Repo]]></y:Label.Text>
 			</port>
 			<port name="p2">
 				<data key="d16">
-					<y:GraphMLReference ResourceKey="28"/>
+					<y:GraphMLReference ResourceKey="26"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -1953,7 +1969,7 @@ Code Repo]]></y:Label.Text>
 			</port>
 			<port name="p5">
 				<data key="d16">
-					<y:GraphMLReference ResourceKey="29"/>
+					<y:GraphMLReference ResourceKey="27"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -1995,13 +2011,13 @@ Code Repo]]></y:Label.Text>
 						<y:Label.LayoutParameter>
 							<y:CompositeLabelModelParameter>
 								<y:CompositeLabelModelParameter.Parameter>
-									<y:InteriorLabelModelParameter Position="NorthWest" Model="{y:GraphMLReference 30}"/>
+									<y:InteriorLabelModelParameter Position="NorthWest" Model="{y:GraphMLReference 28}"/>
 								</y:CompositeLabelModelParameter.Parameter>
 								<y:CompositeLabelModelParameter.Model>
 									<y:CompositeLabelModel>
 										<y:CompositeLabelModel.LabelModels>
 											<y:ExteriorLabelModel Insets="5"/>
-											<y:GraphMLReference ResourceKey="30"/>
+											<y:GraphMLReference ResourceKey="28"/>
 											<x:Static Member="y:FreeNodeLabelModel.Instance"/>
 										</y:CompositeLabelModel.LabelModels>
 									</y:CompositeLabelModel>
@@ -2022,7 +2038,7 @@ Code Repo]]></y:Label.Text>
 				<y:RectD X="-405.25000000000006" Y="-858.84" Width="110.625" Height="100"/>
 			</data>
 			<data key="d7">
-				<demostyle:FlowchartNodeStyle type="process" fill="{y:GraphMLReference 31}"/>
+				<demostyle:FlowchartNodeStyle type="process" fill="{y:GraphMLReference 29}"/>
 			</data>
 			<data key="d8">
 				<y:ViewState>
@@ -2038,7 +2054,11 @@ Code Repo]]></y:Label.Text>
 									</y:CompositeLabelModelParameter>
 								</y:Label.LayoutParameter>
 								<y:Label.Style>
-									<yjs:MarkupLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" clipText="false" textWrappingShape="LABEL_SHAPE" font="{y:GraphMLReference 32}" textFill="BLACK" textSize="20"/>
+									<yjs:MarkupLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" clipText="false" textWrappingShape="LABEL_SHAPE" textFill="BLACK" textSize="20">
+										<yjs:MarkupLabelStyle.font>
+											<yjs:Font fontSize="20"/>
+										</yjs:MarkupLabelStyle.font>
+									</yjs:MarkupLabelStyle>
 								</y:Label.Style>
 							</y:Label>
 						</y:FolderNodeState.Labels>
@@ -2098,7 +2118,7 @@ Code Repo]]></y:Label.Text>
 			</port>
 			<port name="p5">
 				<data key="d16">
-					<y:GraphMLReference ResourceKey="33"/>
+					<y:GraphMLReference ResourceKey="30"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -2157,7 +2177,7 @@ Code Repo]]></y:Label.Text>
 			<graph id="n9:" edgedefault="directed"/>
 			<port name="p0">
 				<data key="d16">
-					<y:GraphMLReference ResourceKey="27"/>
+					<y:GraphMLReference ResourceKey="25"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -2174,7 +2194,7 @@ Code Repo]]></y:Label.Text>
 			</port>
 			<port name="p2">
 				<data key="d16">
-					<y:GraphMLReference ResourceKey="28"/>
+					<y:GraphMLReference ResourceKey="26"/>
 				</data>
 				<data key="d18">
 					<y:ViewState>
@@ -2228,9 +2248,9 @@ Code Repo]]></y:Label.Text>
 			<data key="d11">
 				<x:List>
 					<y:Label>
-						<y:Label.Text><![CDATA[<p><strong style="color: rgb(0, 102, 204);"><em>Deploy as <span class="ql-cursor">﻿﻿</span>a </em></strong></p><p><strong style="color: rgb(0, 102, 204);"><em><span class="ql-cursor">﻿</span>Serving app</em></strong></p>]]></y:Label.Text>
+						<y:Label.Text><![CDATA[<p><strong style="color: rgb(0, 102, 204);"><em>Deploys as <span class="ql-cursor">﻿﻿﻿</span>a </em></strong></p><p><strong style="color: rgb(0, 102, 204);"><em><span class="ql-cursor">﻿﻿</span>Serving app</em></strong></p>]]></y:Label.Text>
 						<y:Label.LayoutParameter>
-							<y:SmartEdgeLabelModelParameter Model="{y:GraphMLReference 36}" SegmentRatio="0.39332848408781834" Distance="5"/>
+							<y:SmartEdgeLabelModelParameter Model="{y:GraphMLReference 33}" SegmentRatio="0.39332848408781834" Distance="5"/>
 						</y:Label.LayoutParameter>
 						<y:Label.Style>
 							<yjs:MarkupLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" clipText="false" textWrappingShape="LABEL_SHAPE" textFill="BLACK" textSize="19">
@@ -2248,7 +2268,7 @@ Code Repo]]></y:Label.Text>
 						<yjs:Stroke fill="{y:GraphMLReference 14}" thickness="0.75"/>
 					</yjs:PolylineEdgeStyle.stroke>
 					<yjs:PolylineEdgeStyle.targetArrow>
-						<yjs:Arrow type="TRIANGLE" scale="0.75" stroke="{y:GraphMLReference 34}" fill="{y:GraphMLReference 35}" cropLength="1"/>
+						<yjs:Arrow type="TRIANGLE" scale="0.75" stroke="{y:GraphMLReference 31}" fill="{y:GraphMLReference 32}" cropLength="1"/>
 					</yjs:PolylineEdgeStyle.targetArrow>
 					<yjs:PolylineEdgeStyle.sourceArrow>
 						<yjs:Arrow type="NONE" scale="0.75" stroke="#FF000000" fill="#FF000000"/>
@@ -2262,7 +2282,7 @@ Code Repo]]></y:Label.Text>
 					<y:Label>
 						<y:Label.Text><![CDATA[<p><strong style="color: rgb(0, 102, 204);"><em><span class="ql-cursor">﻿﻿﻿P﻿</span>ublish </em></strong></p><p><strong style="color: rgb(0, 102, 204);"><em>Machine Learning </em></strong></p><p><strong style="color: rgb(0, 102, 204);"><em><span class="ql-cursor">﻿﻿﻿P</span>ipeline</em></strong></p>]]></y:Label.Text>
 						<y:Label.LayoutParameter>
-							<y:SmartEdgeLabelModelParameter Model="{y:GraphMLReference 36}" SegmentRatio="0.711239762778876" Distance="0.001"/>
+							<y:SmartEdgeLabelModelParameter Model="{y:GraphMLReference 33}" SegmentRatio="0.711239762778876" Distance="0.001"/>
 						</y:Label.LayoutParameter>
 						<y:Label.Style>
 							<yjs:MarkupLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" clipText="false" textWrappingShape="LABEL_SHAPE" textFill="BLACK" textSize="20">
@@ -2282,16 +2302,16 @@ Code Repo]]></y:Label.Text>
 				</x:List>
 			</data>
 			<data key="d13">
-				<yjs:PolylineEdgeStyle stroke="{y:GraphMLReference 37}" targetArrow="{y:GraphMLReference 38}"/>
+				<yjs:PolylineEdgeStyle stroke="{y:GraphMLReference 34}" targetArrow="{y:GraphMLReference 35}"/>
 			</data>
 		</edge>
 		<edge id="e2" source="n1::n1" target="n7" sourceport="p8" targetport="p7">
 			<data key="d11">
 				<x:List>
 					<y:Label>
-						<y:Label.Text><![CDATA[<p><strong style="color: rgb(0, 102, 204);"><em>Triggers if the </em></strong></p><p><strong style="color: rgb(0, 102, 204);"><em>model is updated </em></strong></p><p><strong style="color: rgb(0, 102, 204);"><em><span class="ql-cursor">﻿﻿</span>in the registry</em></strong></p>]]></y:Label.Text>
+						<y:Label.Text><![CDATA[<p><strong style="color: rgb(0, 102, 204);"><em>Triggers if the </em></strong></p><p><strong style="color: rgb(0, 102, 204);"><em>model is updated </em></strong></p><p><strong style="color: rgb(0, 102, 204);"><em><span class="ql-cursor">﻿﻿﻿</span>in the Registry</em></strong></p>]]></y:Label.Text>
 						<y:Label.LayoutParameter>
-							<y:SmartEdgeLabelModelParameter Model="{y:GraphMLReference 36}" SegmentRatio="0.6738503343866671" Distance="0.001"/>
+							<y:SmartEdgeLabelModelParameter Model="{y:GraphMLReference 33}" SegmentRatio="0.6738503343866671" Distance="0.001"/>
 						</y:Label.LayoutParameter>
 						<y:Label.Style>
 							<yjs:MarkupLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" clipText="false" textWrappingShape="LABEL_SHAPE" textFill="BLACK" textSize="20">
@@ -2310,7 +2330,7 @@ Code Repo]]></y:Label.Text>
 				</x:List>
 			</data>
 			<data key="d13">
-				<yjs:PolylineEdgeStyle stroke="{y:GraphMLReference 37}" targetArrow="{y:GraphMLReference 38}">
+				<yjs:PolylineEdgeStyle stroke="{y:GraphMLReference 34}" targetArrow="{y:GraphMLReference 35}">
 					<yjs:PolylineEdgeStyle.sourceArrow>
 						<yjs:Arrow type="NONE" stroke="#FF000000" fill="BLACK"/>
 					</yjs:PolylineEdgeStyle.sourceArrow>
@@ -2320,19 +2340,19 @@ Code Repo]]></y:Label.Text>
 		<edge id="e3" source="n3" target="n0::n3" sourceport="p4" targetport="p10">
 			<data key="d11">
 				<x:List>
-					<y:Label LayoutParameter="{y:GraphMLReference 16}" Style="{y:GraphMLReference 39}">
+					<y:Label LayoutParameter="{y:GraphMLReference 16}" Style="{y:GraphMLReference 36}">
 						<y:Label.Text><![CDATA[<p><strong style="color: rgb(0, 102, 204);"><em>Triggers CI/CD if </em></strong></p><p><strong style="color: rgb(0, 102, 204);"><em>there is a change </em></strong></p><p><strong style="color: rgb(0, 102, 204);"><em>﻿﻿in the code</em></strong></p>]]></y:Label.Text>
 					</y:Label>
 				</x:List>
 			</data>
 			<data key="d13">
-				<y:GraphMLReference ResourceKey="40"/>
+				<y:GraphMLReference ResourceKey="37"/>
 			</data>
 		</edge>
 		<edge id="e4" source="n4" target="n1::n0" sourceport="p6" targetport="p10">
 			<data key="d11">
 				<x:List>
-					<y:Label Style="{y:GraphMLReference 39}">
+					<y:Label Style="{y:GraphMLReference 36}">
 						<y:Label.Text><![CDATA[<p><strong style="color: rgb(0, 102, 204);"><em>Triggers retraining if new data is available<span class="ql-cursor">﻿﻿﻿﻿﻿</span>/ </em></strong></p><p><strong style="color: rgb(0, 102, 204);"><em>on degraded ﻿﻿﻿﻿﻿﻿﻿performance/ based on Scheduler</em></strong></p>]]></y:Label.Text>
 						<y:Label.LayoutParameter>
 							<y:SmartEdgeLabelModelParameter SegmentRatio="0.5306349630421231" Distance="-0.001">
@@ -2351,16 +2371,16 @@ Code Repo]]></y:Label.Text>
 				</x:List>
 			</data>
 			<data key="d13">
-				<y:GraphMLReference ResourceKey="40"/>
+				<y:GraphMLReference ResourceKey="37"/>
 			</data>
 		</edge>
 		<edge id="e5" source="n5" target="n9" sourceport="p0" targetport="p5">
 			<data key="d11">
 				<x:List>
-					<y:Label Style="{y:GraphMLReference 39}">
+					<y:Label Style="{y:GraphMLReference 36}">
 						<y:Label.Text><![CDATA[<p><strong style="color: rgb(0, 102, 204);"><em>Data Transformation</em></strong></p>]]></y:Label.Text>
 						<y:Label.LayoutParameter>
-							<y:SmartEdgeLabelModelParameter Model="{y:GraphMLReference 41}" SegmentRatio="0.2179741492565688" Distance="-5.0000000000000995"/>
+							<y:SmartEdgeLabelModelParameter Model="{y:GraphMLReference 38}" SegmentRatio="0.2179741492565688" Distance="-5.0000000000000995"/>
 						</y:Label.LayoutParameter>
 					</y:Label>
 				</x:List>
@@ -2374,16 +2394,16 @@ Code Repo]]></y:Label.Text>
 				</x:List>
 			</data>
 			<data key="d13">
-				<y:GraphMLReference ResourceKey="42"/>
+				<y:GraphMLReference ResourceKey="39"/>
 			</data>
 		</edge>
 		<edge id="e6" source="n9" target="n5" sourceport="p6" targetport="p1">
 			<data key="d11">
 				<x:List>
-					<y:Label Style="{y:GraphMLReference 39}">
+					<y:Label Style="{y:GraphMLReference 36}">
 						<y:Label.Text><![CDATA[<p><strong style="color: rgb(0, 102, 204);"><em>Training data</em></strong></p>]]></y:Label.Text>
 						<y:Label.LayoutParameter>
-							<y:SmartEdgeLabelModelParameter Model="{y:GraphMLReference 41}" Location="FromTarget" SegmentRatio="0.2133407448582546" Distance="-0.001"/>
+							<y:SmartEdgeLabelModelParameter Model="{y:GraphMLReference 38}" Location="FromTarget" SegmentRatio="0.2133407448582546" Distance="-0.001"/>
 						</y:Label.LayoutParameter>
 					</y:Label>
 				</x:List>
@@ -2395,13 +2415,13 @@ Code Repo]]></y:Label.Text>
 				</x:List>
 			</data>
 			<data key="d13">
-				<y:GraphMLReference ResourceKey="42"/>
+				<y:GraphMLReference ResourceKey="39"/>
 			</data>
 		</edge>
 		<edge id="e7" source="n1" target="n5" sourceport="p5" targetport="p2">
 			<data key="d11">
 				<x:List>
-					<y:Label Style="{y:GraphMLReference 39}">
+					<y:Label Style="{y:GraphMLReference 36}">
 						<y:Label.Text><![CDATA[<p><strong style="color: rgb(0, 102, 204);"><em>Training data</em></strong></p>]]></y:Label.Text>
 						<y:Label.LayoutParameter>
 							<y:SmartEdgeLabelModelParameter SegmentRatio="0.8358843770431615" Distance="5">
@@ -2420,9 +2440,9 @@ Code Repo]]></y:Label.Text>
 				</x:List>
 			</data>
 			<data key="d13">
-				<yjs:PolylineEdgeStyle stroke="{y:GraphMLReference 43}" targetArrow="{y:GraphMLReference 44}">
+				<yjs:PolylineEdgeStyle stroke="{y:GraphMLReference 40}" targetArrow="{y:GraphMLReference 41}">
 					<yjs:PolylineEdgeStyle.sourceArrow>
-						<yjs:Arrow type="TRIANGLE" scale="0.75" stroke="#FF000000" fill="{y:GraphMLReference 45}" cropLength="1"/>
+						<yjs:Arrow type="TRIANGLE" scale="0.75" stroke="#FF000000" fill="{y:GraphMLReference 42}" cropLength="1"/>
 					</yjs:PolylineEdgeStyle.sourceArrow>
 				</yjs:PolylineEdgeStyle>
 			</data>
@@ -2430,10 +2450,10 @@ Code Repo]]></y:Label.Text>
 		<edge id="e8" source="n5" target="n2::n1" sourceport="p6" targetport="p2">
 			<data key="d11">
 				<x:List>
-					<y:Label Style="{y:GraphMLReference 39}">
+					<y:Label Style="{y:GraphMLReference 36}">
 						<y:Label.Text><![CDATA[<p><strong style="color: rgb(0, 102, 204);"><em>Monitors new data</em></strong></p>]]></y:Label.Text>
 						<y:Label.LayoutParameter>
-							<y:SmartEdgeLabelModelParameter Model="{y:GraphMLReference 41}" SegmentIndex="1" SegmentRatio="0.2422496109611898" Distance="0.0010000000000758291"/>
+							<y:SmartEdgeLabelModelParameter Model="{y:GraphMLReference 38}" SegmentIndex="1" SegmentRatio="0.5000000000000003" Distance="0.001000000000139778"/>
 						</y:Label.LayoutParameter>
 					</y:Label>
 				</x:List>
@@ -2450,7 +2470,7 @@ Code Repo]]></y:Label.Text>
 						<yjs:Stroke fill="{y:GraphMLReference 24}" thickness="0.75"/>
 					</yjs:PolylineEdgeStyle.stroke>
 					<yjs:PolylineEdgeStyle.targetArrow>
-						<yjs:Arrow type="TRIANGLE" stroke="{y:GraphMLReference 46}" fill="{y:GraphMLReference 47}" cropLength="1"/>
+						<yjs:Arrow type="TRIANGLE" stroke="{y:GraphMLReference 43}" fill="{y:GraphMLReference 44}" cropLength="1"/>
 					</yjs:PolylineEdgeStyle.targetArrow>
 					<yjs:PolylineEdgeStyle.sourceArrow>
 						<yjs:Arrow type="NONE" stroke="#FF000000" fill="BLACK"/>
@@ -2464,7 +2484,7 @@ Code Repo]]></y:Label.Text>
 					<y:Label>
 						<y:Label.Text><![CDATA[<p><strong style="color: rgb(0, 102, 204);"><em>Model performance data </em></strong></p>]]></y:Label.Text>
 						<y:Label.LayoutParameter>
-							<y:SmartEdgeLabelModelParameter Model="{y:GraphMLReference 48}" Location="FromTarget" SegmentIndex="1" SegmentRatio="0.6370098730399529" Distance="0.001000000000388468"/>
+							<y:SmartEdgeLabelModelParameter Model="{y:GraphMLReference 45}" Location="FromTarget" SegmentIndex="1" SegmentRatio="0.6370098730399529" Distance="0.001000000000388468"/>
 						</y:Label.LayoutParameter>
 						<y:Label.Style>
 							<yjs:MarkupLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" clipText="false" textWrappingShape="LABEL_SHAPE" textFill="BLACK" textSize="20">
@@ -2486,13 +2506,13 @@ Code Repo]]></y:Label.Text>
 				</x:List>
 			</data>
 			<data key="d13">
-				<yjs:PolylineEdgeStyle stroke="{y:GraphMLReference 43}" targetArrow="{y:GraphMLReference 44}" sourceArrow="{y:GraphMLReference 49}"/>
+				<yjs:PolylineEdgeStyle stroke="{y:GraphMLReference 40}" targetArrow="{y:GraphMLReference 41}" sourceArrow="{y:GraphMLReference 46}"/>
 			</data>
 		</edge>
 		<edge id="e10" source="n9" target="n3" sourceport="p7" targetport="p5">
 			<data key="d11">
 				<x:List>
-					<y:Label Style="{y:GraphMLReference 39}">
+					<y:Label Style="{y:GraphMLReference 36}">
 						<y:Label.Text><![CDATA[<p><strong style="color: rgb(0, 102, 204);"><em>Test </em></strong></p><p><strong style="color: rgb(0, 102, 204);"><em><span class="ql-cursor">﻿</span>data</em></strong></p>]]></y:Label.Text>
 						<y:Label.LayoutParameter>
 							<y:SmartEdgeLabelModelParameter SegmentRatio="0.5827024131007722" Distance="5">
@@ -2513,13 +2533,13 @@ Code Repo]]></y:Label.Text>
 				</x:List>
 			</data>
 			<data key="d13">
-				<y:GraphMLReference ResourceKey="50"/>
+				<y:GraphMLReference ResourceKey="47"/>
 			</data>
 		</edge>
 		<edge id="e11" source="n8::n0" target="n3" sourceport="p0" targetport="p6">
 			<data key="d11">
 				<x:List>
-					<y:Label Style="{y:GraphMLReference 39}">
+					<y:Label Style="{y:GraphMLReference 36}">
 						<y:Label.Text><![CDATA[<p><strong style="color: rgb(0, 102, 204);"><em>Experiments</em></strong></p>]]></y:Label.Text>
 						<y:Label.LayoutParameter>
 							<y:SmartEdgeLabelModelParameter SegmentRatio="0.5912178554099952" Distance="5">
@@ -2537,35 +2557,34 @@ Code Repo]]></y:Label.Text>
 				</x:List>
 			</data>
 			<data key="d13">
-				<y:GraphMLReference ResourceKey="50"/>
+				<y:GraphMLReference ResourceKey="47"/>
 			</data>
 		</edge>
 		<edge id="e12" source="n6" target="n4" sourceport="p4" targetport="p7">
 			<data key="d11">
 				<x:List>
-					<y:Label Style="{y:GraphMLReference 39}">
+					<y:Label Style="{y:GraphMLReference 36}">
 						<y:Label.Text><![CDATA[<p><strong style="color: rgb(0, 102, 204);"><em>Triggers Data-driven Schedule-driven Metrics-driven</em></strong></p>]]></y:Label.Text>
 						<y:Label.LayoutParameter>
-							<y:SmartEdgeLabelModelParameter Model="{y:GraphMLReference 51}" SegmentIndex="1" SegmentRatio="0.38209066282219717" Distance="-4.999999999999972"/>
-						</y:Label.LayoutParameter>
-					</y:Label>
-					<y:Label Style="{y:GraphMLReference 39}">
-						<y:Label.Text><![CDATA[<p><strong style="color: rgb(0, 102, 204);"><em>Calling Pipeline endpoint </em></strong></p><p><strong style="color: rgb(0, 102, 204);"><em>﻿﻿to trigger retraining</em></strong></p>]]></y:Label.Text>
-						<y:Label.LayoutParameter>
-							<y:SmartEdgeLabelModelParameter Model="{y:GraphMLReference 51}" Location="FromTarget" SegmentRatio="0.575561776348013" Distance="5"/>
+							<y:SmartEdgeLabelModelParameter SegmentIndex="2" SegmentRatio="0.3932274561841308" Distance="5.00000000000005">
+								<y:SmartEdgeLabelModelParameter.Model>
+									<y:SmartEdgeLabelModel/>
+								</y:SmartEdgeLabelModelParameter.Model>
+							</y:SmartEdgeLabelModelParameter>
 						</y:Label.LayoutParameter>
 					</y:Label>
 				</x:List>
 			</data>
 			<data key="d12">
 				<x:List>
-					<y:Bend Location="1126.375,165.99999999999997"/>
-					<y:Bend Location="2340.5,165.99999999999997"/>
-					<y:Bend Location="2340.5,-844.5"/>
+					<y:Bend Location="1388.5,42.75"/>
+					<y:Bend Location="1407.25,58"/>
+					<y:Bend Location="2237.75,58"/>
+					<y:Bend Location="2237.75,-844.5"/>
 				</x:List>
 			</data>
 			<data key="d13">
-				<y:GraphMLReference ResourceKey="50"/>
+				<y:GraphMLReference ResourceKey="47"/>
 			</data>
 		</edge>
 	</graph>

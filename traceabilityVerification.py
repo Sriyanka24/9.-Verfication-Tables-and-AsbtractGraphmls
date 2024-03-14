@@ -83,7 +83,7 @@ def combine_abstraction_edges(csv_files):
 
 def verify_mapping(platform, dict_nodes, dict_edges, all_abstraction_nodes, all_abstraction_edges):
     """Verify the mapping of nodes and edges."""
-
+    print('\n')
     print(platform)
     print("Nodes from Graphml")
     print(dict_nodes)
@@ -109,10 +109,9 @@ def verify_mapping(platform, dict_nodes, dict_edges, all_abstraction_nodes, all_
             flag_edges_found += 1
         else:
             print(f"Edge name '{edge_name}' not found in the list of all abstraction edges.")
-
+    
     if flag_edges_found == len(dict_edges):
         print("All Edges are Verified.",platform)
-        print('\n')
 
 
 # AWS
