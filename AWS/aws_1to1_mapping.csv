@@ -6,7 +6,6 @@ AWS CodeCommit,AWS CodeCommit
 ECR,ECR
 Custom VPC,Custom VPC
 CloudFormation,CloudFormation
-Custom VPC,Custom VPC
 SageMaker Endpoint,SageMaker Endpoint
 Model Monitoring Job,Model Monitoring Job
 SageMaker Container Images CI/CD CodePipeline,SageMaker Container Images CI/CD CodePipeline

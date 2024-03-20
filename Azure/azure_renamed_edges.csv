@@ -1,13 +1,12 @@
 Abstraction Edge,Raw Edge
-Data Transformation,"Data Source -> Data Pipeline – Data Prep, Data Validation"
+Data Transformation,"Data Source → Data Pipeline – Data Prep, Data Validation"
 Experiments,Experimentation - Notebooks
-Triggers CI/CD if there is a change in the code,Experimentation -> Build Pipeline
-Pushes code to the repo,Unit Tests -> Code Repo
-Source code integration,Code Repo -> Continuous Integration
-Stores Artifacts,
-Stores to the Registry if passed the evaluation,"Train model, Evaluate model -> Register model"
-Triggers if the model is updated in the Registry,Register model -> AML Model Management
-Training data,Data Pipeline -> Training Pipeline – Training Data
+Triggers CI/CD if there is a change in the code,Experimentation → Build Pipeline
+Pushes code to the repo,Unit Tests → Code Repo
+Source code integration,Code Repo → Continuous Integration
+Stores to the Registry if passed the evaluation,"Train model, Evaluate model → Register model"
+Triggers if the model is updated in the Registry,Register model → AML Model Management
+Training data,Data Pipeline → Training Pipeline – Training Data
 Deploys as a Serving app,"Operationalize model, Model Artifact Trigger"
 Triggers Data-driven Schedule-driven Metrics-driven,Triggers Data-driven Schedule-driven Metrics-driven (New data location)
-Triggers retraining if new data is available/ on degraded performance/ based on Scheduler,Azure Machine Learning pipeline endpoint -> Azure Machine Learning retraining pipeline
+Triggers retraining if new data is available/ on degraded performance/ based on Scheduler,Azure Machine Learning pipeline endpoint → Azure Machine Learning retraining pipeline

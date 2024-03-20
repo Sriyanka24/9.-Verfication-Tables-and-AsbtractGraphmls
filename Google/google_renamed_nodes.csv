@@ -3,4 +3,8 @@ Google Cloud Storage,Cloud Storage
 GCP User,User
 CI/CD Vertex AI Pipeline,CI/CD with Vertex AI Pipelines
 Vertex AI Training/Retraining Pipeline,Vertex AI Pipelines
-Model Deployment and Monitoring,
+Vertex AI Model Monitor,Logs Cloud Logging
+Cloud Composer,Workflow Cloud Composer
+Cloud Scheduler,Scheduler Cloud Scheduler
+Pub/Sub,Trigger message Pub/Sub
+Cloud Functions SDK,Pipeline trigger Cloud Functions

@@ -1,15 +1,15 @@
-Abstraction Node,Raw Node
-AWS CodeBuild and SageMaker Docker Image,AWS CodeBuild
-,SageMaker Docker Image
-AWS CodeBuild and AWS Lambda,AWS CodeBuild
-,AWS Lambda (Data Validation)
-SageMaker ML Pipeline,SageMaker ML Pipeline
-,Data Preprocessing
-,Model Training
-,Model Evaluation
-AWS CodeCommit and AWS CodeBuild,AWS CodeCommit
-,AWS CodeBuild validates & executes CFN template
-CloudWatch Metrics and Alarm,CloudWatch Metrics
-,CloudWatch Alarm
-Triggers/Scheduler AWS,
-Amazon EventBridge,
+Abstraction Node,Raw Node,Reason
+AWS CodeBuild and SageMaker Docker Image,AWS CodeBuild,Merged for better Abstraction of CI/CD steps 
+,SageMaker Docker Image,
+AWS CodeBuild and AWS Lambda,AWS CodeBuild,Merged for abstracting redundant steps
+,AWS Lambda (Data Validation),
+SageMaker ML Pipeline,SageMaker ML Pipeline,Merged the training steps for simplification of the training pipeline
+,Data Preprocessing,
+,Model Training,
+,Model Evaluation,
+AWS CodeCommit and AWS CodeBuild,AWS CodeCommit,Merged for abstracting redundant steps
+,AWS CodeBuild validates & executes CFN template,
+CloudWatch Metrics and Alarm,CloudWatch Metrics,Merged because both the metrics and alarm come under CloudWatch Service
+,CloudWatch Alarm,
+Triggers/Scheduler AWS,N/A,Added to abstract the triggers
+Amazon EventBridge,N/A,Added based on the text description given on the page

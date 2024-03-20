@@ -1,16 +1,16 @@
 Abstraction Edge,Raw Edge
-Experiments,Data Scientist/Software Developers -> SageMaker Notebook
+Experiments,Data Scientist/Software Developers →  SageMaker Notebook
 Training data,Feature Engineering and Data Labeling → Training Dataset
-Feature Engineering,SageMaker Notebook -> Feature Engineering and Data Labeling - 1(i)
-Data Transformation,Data Acquisition Process -> Feature Engineering and Data Labeling
-Triggers CI/CD if there is a change in the code,SageMaker Notebook -> AWS CodeCommit – 1(ii)
-Stores Docker image/ Artifacts,SageMaker Docker Image -> ECR
+Feature Engineering,SageMaker Notebook →  Feature Engineering and Data Labeling - 1(i)
+Data Transformation,Data Acquisition Process →  Feature Engineering and Data Labeling
+Triggers CI/CD if there is a change in the code,SageMaker Notebook →  AWS CodeCommit – 1(ii)
+Stores Docker image/ Artifacts,SageMaker Docker Image →  ECR
 Triggers if the image is updated in the Registry,Trigger the Model training pipeline
-Triggers ML Pipeline,AWS CodeBuild -> SageMaker ML Pipeline
+Triggers ML Pipeline,AWS CodeBuild →  SageMaker ML Pipeline
 Stores to the Registry if passed the evaluation,Passed Model Evaluation
-Model Status Change Event Rule,
-Triggers if the model is updated in the Registry,Register Model -> Model Deployment
-Training data,AWS Lambda (Data Validation) -> Training Dataset
-Deploys as a Serving app,CloudFormation -> SageMaker Endpoint
-Monitoring,Model Monitoring Job -> SageMaker Endpoint
+Model Status Change Event Rule,Added Model Status Change Event Rule Node as an edge for simplification
+Triggers if the model is updated in the Registry,Register Model →  Model Deployment
+Training data,AWS Lambda (Data Validation) →  Training Dataset
+Deploys as a Serving app,CloudFormation →  SageMaker Endpoint
+Monitoring,Model Monitoring Job →  SageMaker Endpoint
 Triggers retraining if new data is available/ on degraded performance/ based on Scheduler,Trigger’s Model Retraining

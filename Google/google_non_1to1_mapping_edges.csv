@@ -1,8 +1,9 @@
-Abstraction Edge,Raw Edge
-Test data,
-Feature Engineering,
-Monitors new data,
-Evaluation Metrics,Model training and tuning – Saved model Cloud Storage -> TensorFlow Model Analysis Dataflow
-,TensorFlow Model Analysis Dataflow -> Evaluation metrics Cloud Storage
-Triggers if the model is updated in the Registry,Model registry Vertex AI Model Registry -> TensorFlow Serving Vertex AI Prediction
-Deploy as a Serving app,
+Abstraction Edge,Raw Edge,Reason
+Test data,N/A,Added for a clear Data flow 
+Feature Engineering,N/A,Added from the description mentioned in the page
+Monitors new data,N/A,Added from the description mentioned in the page
+Evaluation Metrics,Model training and tuning – Saved model Cloud Storage -> TensorFlow Model Analysis Dataflow,Merged as the respective nodes are abstracted for simplification 
+,TensorFlow Model Analysis Dataflow -> Evaluation metrics Cloud Storage,
+Triggers if the model is updated in the Registry,Model registry Vertex AI Model Registry -> TensorFlow Serving Vertex AI Prediction,Merged as the respective nodes are abstracted for simplification 
+Deploys as a Serving app,,
+Monitoring,N/A,Added from the description mentioned in the page

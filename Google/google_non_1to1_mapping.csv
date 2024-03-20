@@ -1,29 +1,25 @@
-Abstraction Node,Raw Node
-Dataflow,TensorFlow Data Validation Dataflow
-,TensorFlow Transform Dataflow
-Vertex AI Workbench,Vertex AI Workbench
-,Data science environment
-Cloud Source Repositories,Cloud Source Repositories
-,Pipeline workflow source code
-,"Components source code & specs, configurations"
-,"Docker files, scripts"
-,Unit & integration tests
-Cloud Build,Cloud Build
-,Pipeline workflow source code
-GCP Artifact Registry,Artifact Registry
-,Container images for pipeline components
-,Pipeline template
-Vertex AI Train and Evaluate,Vertex AI Pipelines
-,Data extraction
-,Data validation
-,Model evaluation & validation
-Vertex AI Model Registry,Model Storage
-,Model registry Vertex AI Model Registry
-Vertex AI Prediction,Model serving for predictions
-,TensorFlow Serving Vertex AI Prediction
-Vertex AI Model Monitor,Logs Cloud Logging
-Cloud Composer,Workflow Cloud Composer
-Cloud Scheduler,Scheduler Cloud Scheduler
-Pub/Sub,Trigger message Pub/Sub
-Cloud Functions SDK,Pipeline trigger Cloud Functions
-Triggers/Scheduler Google,
+Abstraction Node,Raw Node,Reason
+Dataflow,TensorFlow Data Validation Dataflow,Merged processing inside the Dataflow service to one node
+,TensorFlow Transform Dataflow,
+Vertex AI Workbench,Vertex AI Workbench,Merged the Code development environment and notebook 
+,Data science environment,
+Cloud Source Repositories,Cloud Source Repositories,Merged the CI/CD steps for better abstraction and simplification
+,Pipeline workflow source code,
+,"Components source code & specs, configurations",
+,"Docker files, scripts",
+,Unit & integration tests,
+Cloud Build,Cloud Build,Merged steps inside the Cloud Build
+,Pipeline workflow source code,
+GCP Artifact Registry,Artifact Registry,Merged artifacts related nodes to one node
+,Container images for pipeline components,
+,Pipeline template,
+Vertex AI Train and Evaluate,Vertex AI Pipelines,Merged the training and evaluation steps to one node for abstraction
+,Data extraction,
+,Data validation,
+,Model evaluation & validation,
+Vertex AI Model Registry,Model Storage,Merged model storage related nodes to one node for abstraction
+,Model registry Vertex AI Model Registry,
+Vertex AI Prediction,Model serving for predictions,Merged the nodes for simplification
+,TensorFlow Serving Vertex AI Prediction,
+Triggers/Scheduler Google,N/A,Added to abstract all the trigger related nodes
+Model Deployment and Monitoring,N/A,Added to abstract all the deployment related nodes

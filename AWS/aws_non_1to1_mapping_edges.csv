@@ -1,15 +1,15 @@
-Abstraction Edge,Raw Edge
-Test data,
-Monitors new data,
-Source code integration,AWS CodeCommit -> AWS CodeBuild
-,AWS CodeBuild -> SageMaker Docker Image
-Data validation,AWS CodeCommit -> AWS CodeBuild
-,AWS CodeBuild -> AWS Lambda (Data Validation)
-,AWS Lambda (Data Validation) -> AWS CodeBuild
-Training data,Data Preprocessing <-> Training Dataset
-,Model Training -> Training Dataset
-Executes CFN template,AWS CodeCommit -> AWS CodeBuild validates & executes CFN template
-,AWS CodeBuild validates & executes CFN template -> CloudFormation
-Alerts,Model Monitoring Job -> CloudWatch Metrics
-,CloudWatch Metrics -> CloudWatch Alarm
-Scheduled Events,
+Abstraction Edge,Raw Edge,Reason
+Test data,N/A,Added for the Data flow Clarity
+Monitors new data,N/A,Added based on the description on the page
+Source code integration,AWS CodeCommit →  AWS CodeBuild,Merged since the respective nodes are merged for abstraction
+,AWS CodeBuild →  SageMaker Docker Image,
+Data validation,AWS CodeCommit →  AWS CodeBuild,Merged since the respective nodes are merged for abstraction
+,AWS CodeBuild →  AWS Lambda (Data Validation),
+,AWS Lambda (Data Validation) →  AWS CodeBuild,
+Training data,Data Preprocessing ↔ Training Dataset,Merged since the respective nodes are merged for abstraction
+,Model Training →  Training Dataset,
+Executes CFN template,AWS CodeCommit →  AWS CodeBuild validates & executes CFN template,Merged since the respective nodes are merged for abstraction
+,AWS CodeBuild validates & executes CFN template →  CloudFormation,
+Alerts,Model Monitoring Job →  CloudWatch Metrics,Merged since the respective nodes are merged for abstraction
+,CloudWatch Metrics →  CloudWatch Alarm,
+Scheduled Events,N/A,Added from the text below on the page
